@@ -32,10 +32,13 @@ In this example, video.mp4 is the video file and 60 is the duration of each part
 
 To use the video_cutter.py script, you need to provide three command line arguments:
 
-The name (and path, if not in the same directory as the script) of the video file.
-The start time (in seconds) from where you want to cut the video.
-The end time (in seconds) where you want to stop cutting the video.
-The command to run the script should look like this:
+1. The name (and path, if not in the same directory as the script) of the video file.
+2. The start time (in seconds) from where you want to cut the video.
+3. The end time (in seconds) where you want to stop cutting the video.
+
+# The command to run the script should look like this:
+
+python video_cutter.py video.mp4 60 120
 
 In this example, video.mp4 is the video file, 60 is the start time, and 120 is the end time. The script will cut the video from 60 seconds to 120 seconds, and the output file will be named video_cut.mp4.
 
