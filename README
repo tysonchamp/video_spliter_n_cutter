@@ -23,12 +23,13 @@ To use the `video_splitter.py` script, you need to provide two command line argu
 
 The command to run the script should look like this:
 
-```bash
+
 python video_splitter.py video.mp4 60
 
 In this example, video.mp4 is the video file and 60 is the duration of each part. The script will split the video into parts of 60 seconds each, and the output files will be named video_1.mp4, video_2.mp4, video_3.mp4, and so on.
 
-Video Cutter
+### Video Cutter
+
 To use the video_cutter.py script, you need to provide three command line arguments:
 
 The name (and path, if not in the same directory as the script) of the video file.
@@ -41,4 +42,3 @@ In this example, video.mp4 is the video file, 60 is the start time, and 120 is t
 Progress
 While the scripts are running, they will display a progress bar in the terminal showing the percentage of the video that has been processed.
 
-```
