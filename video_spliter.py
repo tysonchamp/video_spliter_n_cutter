@@ -1,4 +1,3 @@
-# create a program to split a video into multiple parts based on user input (seconds)
 # Usage: python script.py video.mp4 60
 # Output: video_1.mp4, video_2.mp4, video_3.mp4, ...
 
